@@ -10,4 +10,5 @@
     <string name="text_1">Haven\'t register yet?</string>
     <string name="text_2">Click Here!</string>
     <string name="text_3">Already Register?</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
