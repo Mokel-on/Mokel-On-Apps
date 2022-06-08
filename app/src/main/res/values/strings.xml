@@ -13,4 +13,5 @@
     <string name="title_activity_maps">MapsActivity</string>
     <string name="alamat">Alamat</string>
     <string name="apply">Apply</string>
+    <string name="confirm_password">Confirm Password</string>
 </resources>

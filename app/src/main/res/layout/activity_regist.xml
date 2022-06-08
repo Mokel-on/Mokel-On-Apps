@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339">
+        app:layout_constraintVertical_bias="0.3">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/name_regist"
@@ -40,6 +40,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/un_regist"
             style="@style/et"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -59,6 +60,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_reg"
             style="@style/et"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -77,6 +79,25 @@
         app:layout_constraintVertical_bias="0.0">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass_reg"
+            style="@style/et"
+            android:background="@drawable/rounded_edge"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/cm_password"
+        style="@style/ti"
+        android:background="@drawable/rounded_edge"
+        android:hint="@string/confirm_password"
+        android:orientation="vertical"
+        app:endIconMode="password_toggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cmpass_reg"
             style="@style/et"
             android:background="@drawable/rounded_edge"
             android:inputType="textPassword" />
@@ -93,7 +114,7 @@
         app:layout_constraintHorizontal_bias="0.991"
         app:layout_constraintStart_toStartOf="@+id/password"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.015" />
+        app:layout_constraintVertical_bias="0.209" />
 
     <TextView
         android:id="@+id/textView"
