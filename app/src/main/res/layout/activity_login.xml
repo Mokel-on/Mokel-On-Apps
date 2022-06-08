@@ -36,9 +36,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/log_email"
             style="@style/et"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/rounded_edge"/>
+            android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -59,8 +57,6 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/login_pw"
             style="@style/et"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 

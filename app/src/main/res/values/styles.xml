@@ -10,8 +10,8 @@
     </style>
 
     <style name="et">
-        <item name="android:layout_width">345dp</item>
-        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">361dp</item>
+        <item name="android:layout_height">54dp</item>
         <item name="android:layout_marginBottom">5dp</item>
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
