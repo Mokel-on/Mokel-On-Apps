@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755339811342",
+    "project_id": "mokel-on",
+    "storage_bucket": "mokel-on.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755339811342:android:3c886a7fdaa596fcf77a5f",
+        "android_client_info": {
+          "package_name": "com.example.mokel_on"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755339811342-ot5m0tnoh3jmnh55n5nlqm0g9l8p4kl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoo28jPa8Wemt8Dwzm3Co9ouI_HGa2vfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755339811342-ot5m0tnoh3jmnh55n5nlqm0g9l8p4kl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

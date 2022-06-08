@@ -25,7 +25,7 @@
         android:layout_marginTop="256dp"
         android:background="@drawable/rounded_edge"
         android:orientation="vertical"
-        android:hint="@string/username"
+        android:hint="@string/email"
         style="@style/ti"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/logo"
@@ -35,6 +35,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             style="@style/et"
+            android:id="@+id/log_email"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -54,6 +55,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_pw"
             style="@style/et"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
