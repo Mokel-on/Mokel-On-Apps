@@ -46,5 +46,40 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textField" />
 
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        android:layout_width="122dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_edge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switcher_1" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup2"
+        android:layout_width="122dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/rounded_edge"
+        app:layout_constraintBottom_toBottomOf="@+id/chipGroup"
+        app:layout_constraintStart_toEndOf="@+id/chipGroup"
+        app:layout_constraintTop_toTopOf="@+id/chipGroup"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="122dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/rounded_edge"
+        app:layout_constraintBottom_toBottomOf="@+id/chipGroup2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/chipGroup2"
+        app:layout_constraintTop_toTopOf="@+id/chipGroup2"
+        app:layout_constraintVertical_bias="0.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
