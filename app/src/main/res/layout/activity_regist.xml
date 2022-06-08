@@ -21,6 +21,7 @@
         app:layout_constraintVertical_bias="0.339">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name_regist"
             style="@style/et"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
