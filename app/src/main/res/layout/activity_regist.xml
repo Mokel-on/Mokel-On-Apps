@@ -23,6 +23,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/name_regist"
             style="@style/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -42,6 +44,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/un_regist"
             style="@style/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -62,6 +66,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email_reg"
             style="@style/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -81,6 +87,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/pass_reg"
             style="@style/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@drawable/rounded_edge"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -99,6 +107,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/cmpass_reg"
             style="@style/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@drawable/rounded_edge"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
