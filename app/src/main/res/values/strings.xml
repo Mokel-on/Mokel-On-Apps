@@ -11,4 +11,6 @@
     <string name="text_2">Click Here!</string>
     <string name="text_3">Already Register?</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="alamat">Alamat</string>
+    <string name="apply">Apply</string>
 </resources>

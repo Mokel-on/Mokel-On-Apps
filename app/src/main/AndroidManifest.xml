@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mokel_on">
+    package="com.example.mokel_on" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MokelOn">
+        android:theme="@style/Theme.MokelOn" >
 
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
@@ -25,6 +25,10 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="YOUR_API_KEY" />
 
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
         <activity
             android:name=".Maps.MapsActivity"
             android:exported="false"
@@ -46,7 +50,7 @@
             android:exported="false" />
         <activity
             android:name=".SplashScreen.MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
