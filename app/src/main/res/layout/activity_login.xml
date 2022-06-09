@@ -9,29 +9,34 @@
 
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="471.26dp"
-        android:layout_height="939.26dp"
-        android:src="@drawable/ic_backgound"
+        android:id="@+id/logo"
+        android:layout_width="411dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/rounded_edge"
+        android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/username"
-        style="@style/ti"
         android:layout_marginTop="256dp"
         android:background="@drawable/rounded_edge"
-        android:hint="@string/email"
         android:orientation="vertical"
+        android:hint="@string/email"
+        style="@style/ti"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintEnd_toEndOf="@id/logo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.433">
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.272">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/log_email"
+            style="@style/et"
+            android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -53,18 +58,13 @@
             android:id="@+id/login_pw"
             style="@style/et"
             android:background="@drawable/rounded_edge" />
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/log_email"
-            style="@style/et"
-            android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_login"
-        style="@style/btn"
         android:background="@drawable/rounded_edge"
+        android:id="@+id/btn_login"
         android:text="@string/login"
+        style="@style/btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.941"
