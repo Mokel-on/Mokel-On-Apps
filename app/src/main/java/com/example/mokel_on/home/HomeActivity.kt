@@ -2,6 +2,9 @@ package com.example.mokel_on.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageSwitcher
+import android.widget.ImageView
+import com.example.mokel_on.R
 import com.example.mokel_on.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
@@ -15,8 +18,13 @@ class HomeActivity : AppCompatActivity() {
 
         supportActionBar!!.hide()
 
-
-
+        val imgswitcher = findViewById<ImageSwitcher>(R.id.switcher_1)
+        imgswitcher?.setFactory {
+            val imgView = ImageView(applicationContext)
+            imgView.scaleType = ImageView(applicationContext)
+            imgView.setPadding(8, 8, 8, 8)
+            imgView
+        }
 
 
     }
