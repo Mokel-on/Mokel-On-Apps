@@ -85,9 +85,10 @@
         app:layout_constraintTop_toBottomOf="@+id/password"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageButton"
         style="@style/log_w_google"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -95,6 +96,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="@+id/imageButton"
         app:layout_constraintStart_toStartOf="@+id/imageButton"

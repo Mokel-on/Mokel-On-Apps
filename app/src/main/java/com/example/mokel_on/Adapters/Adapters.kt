@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.mokel_on.Data.Data
 import com.example.mokel_on.databinding.ListBinding
 
+
 class Adapters(): RecyclerView.Adapter<Adapters.Holder>() {
 
     private var onItemClickCallback: OnItemClickCallback?= null
@@ -17,7 +18,7 @@ class Adapters(): RecyclerView.Adapter<Adapters.Holder>() {
        this.onItemClickCallback = onItemClickCallback
    }
 
-    inner class Holder(val binding: ListBinding) : RecyclerView.ViewHolder(binding.root){
+   inner class Holder(val binding: ListBinding) : RecyclerView.ViewHolder(binding.root){
 
         fun bind(data: Data){
 
@@ -43,10 +44,12 @@ class Adapters(): RecyclerView.Adapter<Adapters.Holder>() {
     }
 
     override fun getItemCount(): Int = list.size
-}
-
 
     interface OnItemClickCallback {
         fun OnItemClicked(data: Data)
+    }
 
 }
+
+
+
