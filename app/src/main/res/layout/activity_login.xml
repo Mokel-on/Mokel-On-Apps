@@ -7,14 +7,18 @@
     android:background="@color/Creamish"
     tools:context=".Login.LoginActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_backgound"/>
+
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="411dp"
         android:layout_height="217dp"
         android:layout_marginTop="64dp"
-        android:background="@drawable/rounded_edge"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

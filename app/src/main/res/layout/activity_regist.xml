@@ -7,6 +7,11 @@
     android:background="@color/Creamish"
     tools:context=".register.RegistActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_backgound"/>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/name"
         style="@style/ti"
