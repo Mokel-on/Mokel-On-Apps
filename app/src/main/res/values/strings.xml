@@ -7,9 +7,10 @@
     <string name="register">Register</string>
     <string name="email">Email</string>
     <string name="name">Name</string>
-    <string name="text_1">Login With</string>
+    <string name="text_1">Or Login With</string>
     <string name="text_2">Click Here!</string>
     <string name="text_3">Already Register?</string>
+    <string name="text_4">Haven\'t Register Yet?</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="alamat">Alamat</string>
     <string name="apply">Apply</string>
