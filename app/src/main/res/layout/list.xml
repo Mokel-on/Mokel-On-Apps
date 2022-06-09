@@ -29,10 +29,10 @@
             tools:src="@tools:sample/backgrounds/scenic" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/nama_list"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="nama bengkel"
+            tools:text="@string/namabengkel"
             app:layout_constraintBottom_toBottomOf="@+id/imageView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.164"
@@ -41,14 +41,26 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
+            android:id="@+id/alamat_list"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="deskripsi"
-            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/nama_list"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/textView3"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintStart_toStartOf="@+id/nama_list"
+            app:layout_constraintTop_toBottomOf="@+id/nama_list"
+            tools:text="Alamat" />
+
+        <TextView
+            android:id="@+id/rating_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/alamat_list"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/alamat_list"
+            app:layout_constraintTop_toBottomOf="@+id/alamat_list"
+            tools:text="Rating 5" />
 
         <ToggleButton
             android:id="@+id/tb_fav"
@@ -62,8 +74,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/textView3"
-            app:layout_constraintTop_toTopOf="@+id/textView3"
+            app:layout_constraintStart_toEndOf="@+id/nama_list"
+            app:layout_constraintTop_toTopOf="@+id/nama_list"
             app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
