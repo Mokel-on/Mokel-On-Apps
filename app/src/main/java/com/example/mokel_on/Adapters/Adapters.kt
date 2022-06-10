@@ -6,15 +6,14 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mokel_on.Data.Data
 import com.example.mokel_on.databinding.ListBinding
+import java.util.ArrayList
 
 
-class Adapters(): RecyclerView.Adapter<Adapters.Holder>() {
+class Adapters(private val list: ArrayList<Data>): RecyclerView.Adapter<Adapters.Holder>() {
 
     private var onItemClickCallback: OnItemClickCallback?= null
 
-    private val list: ArrayList<Data>()
-
-   fun setOnItemClickCallback (onItemClickCallback: OnItemClickCallback){
+    fun setOnItemClickCallback (onItemClickCallback: OnItemClickCallback){
        this.onItemClickCallback = onItemClickCallback
    }
 
