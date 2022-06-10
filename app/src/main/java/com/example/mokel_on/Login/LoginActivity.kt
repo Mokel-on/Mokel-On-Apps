@@ -25,7 +25,7 @@ class LoginActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
-        binding.txtButton1.setOnClickListener{
+        binding.txtButton2.setOnClickListener{
             val intent = Intent(this@LoginActivity,RegistActivity::class.java)
             startActivity(intent)
         }
