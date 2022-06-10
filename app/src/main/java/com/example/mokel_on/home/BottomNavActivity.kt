@@ -7,7 +7,8 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.mokel_on.home.databinding.ActivityBottomNavBinding
+import com.example.mokel_on.R
+import com.example.mokel_on.databinding.ActivityBottomNavBinding
 
 class BottomNavActivity : AppCompatActivity() {
 
@@ -26,7 +27,7 @@ class BottomNavActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications
+                R.id.navigation_home, R.id.navigation_maps, R.id.navigation_profile
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

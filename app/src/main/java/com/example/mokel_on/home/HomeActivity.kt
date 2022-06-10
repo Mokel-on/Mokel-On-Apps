@@ -7,6 +7,10 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.ImageSwitcher
 import android.widget.ImageView
+import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mokel_on.Adapters.Adapters
@@ -14,6 +18,7 @@ import com.example.mokel_on.Data.Data
 import com.example.mokel_on.R
 import com.example.mokel_on.bengkel.DetailBengkelActivity
 import com.example.mokel_on.databinding.ActivityHomeBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.firestore.*
 
 class HomeActivity : AppCompatActivity() {
@@ -44,6 +49,14 @@ class HomeActivity : AppCompatActivity() {
 
         EventChangeListener()
 
+        val navView : BottomNavigationView = findViewById(R.id.nav_view)
+        val navController = findNavController(R.id.nav_host_fragment_activity_bottom_nav)
+        val appBarConfiguration = AppBarConfiguration.Builder(
+         R.id.navigation_home, R.id.navigation_maps, R.id.navigation_profile
+        ).build()
+
+        setupActionBarWithNavController(navController, appBarConfiguration)
+        navView.setupWithNavController(navController)
 
         val imgswitcher = findViewById<ImageSwitcher>(R.id.switcher_1)
         imgswitcher?.setFactory {
