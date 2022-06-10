@@ -47,6 +47,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/log_email"
             style="@style/et"
+            android:maxLines="1"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -56,7 +57,6 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/rounded_edge"
         android:hint="@string/password"
-        android:inputType="textPassword"
         app:endIconMode="password_toggle"
         app:layout_constraintEnd_toEndOf="@+id/username"
         app:layout_constraintHorizontal_bias="1.0"
@@ -66,6 +66,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/login_pw"
             style="@style/et"
+            android:inputType="textPassword"
             android:background="@drawable/rounded_edge" />
 
     </com.google.android.material.textfield.TextInputLayout>

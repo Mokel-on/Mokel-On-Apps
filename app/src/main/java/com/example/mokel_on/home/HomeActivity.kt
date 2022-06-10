@@ -62,10 +62,6 @@ class HomeActivity : AppCompatActivity() {
             }
         })
 
-
-
-
-
     }
 
     private fun EventChangeListener() {
