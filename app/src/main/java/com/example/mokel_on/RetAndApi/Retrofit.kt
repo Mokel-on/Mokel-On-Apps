@@ -6,12 +6,12 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class Retrofit {
 
-  //  private const val BASIC_URL = ""
+   private val BASIC_URL = "https://mokel-on-default-rtdb.firebaseio.com/"
 
-    fun getInstance(): Retrofit {
+   fun getInstance(): Retrofit {
         val gson = GsonBuilder().setLenient().create()
         return Retrofit.Builder()
-            .baseUrl("BASIC_URL")
+            .baseUrl(BASIC_URL)
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
 

@@ -18,7 +18,8 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            style="@style/et_search"
+            android:id="@+id/et_maps_search"
+            style="@style/et"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 

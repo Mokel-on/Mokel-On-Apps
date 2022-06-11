@@ -1,5 +1,6 @@
 package com.example.mokel_on.home
 
+import android.content.ContentValues.TAG
 import android.content.Intent
 import android.net.UrlQuerySanitizer
 import androidx.appcompat.app.AppCompatActivity
@@ -35,7 +36,7 @@ class HomeActivity : AppCompatActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        supportActionBar!!.hide()
+        //supportActionBar!!.hide()
 
         Recycle = findViewById(R.id.bengkel_list)
         Recycle.layoutManager = LinearLayoutManager(this)
@@ -80,8 +81,18 @@ class HomeActivity : AppCompatActivity() {
     private fun EventChangeListener() {
 
         db = FirebaseFirestore.getInstance()
-        db.collection("Data").
-                addSnapshotListener(object : EventListener<QuerySnapshot>{
+        db.collection("Data")
+            .get()
+            .addOnSuccessListener { result ->
+                for (document in result) {
+                    Log.d(TAG, "${document.id} => ${document.data}")
+                }
+            }
+            .addOnFailureListener { exception ->
+                Log.w(TAG, "Error getting documents.", exception)
+            }
+
+                /*'addSnapshotListener(object : EventListener<QuerySnapshot>{
                     override fun onEvent(
                         value: QuerySnapshot?,
                         error: FirebaseFirestoreException?
@@ -103,6 +114,7 @@ class HomeActivity : AppCompatActivity() {
                     }
 
                 })
+    */
 
     }
 }

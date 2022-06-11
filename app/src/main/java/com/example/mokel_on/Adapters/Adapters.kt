@@ -1,6 +1,5 @@
 package com.example.mokel_on.Adapters
 
-import android.system.Os.bind
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -25,8 +24,9 @@ class Adapters(private val list: ArrayList<Data>): RecyclerView.Adapter<Adapters
                 onItemClickCallback?.OnItemClicked(data)
             }
             binding.apply {
+                contactList.text = data.contact
                 namaList.text = data.nama
-                ratingList.text = " Rating ${data.rating.toString()}"
+                ratingList.text = " Rating ${data.Rating.toString()}"
 
             }
         }

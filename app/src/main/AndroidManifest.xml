@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mokel_on">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -34,7 +36,7 @@
             android:value="AIzaSyCEibPXl9ffKjG8rma1x67BfHUGOnmX9B0" />
 
         <activity
-            android:name=".Maps.MapsActivity"
+            android:name=".SplashScreen.MainActivity"
             android:exported="false"
             android:label="@string/title_activity_maps" />
         <activity
@@ -50,7 +52,7 @@
             android:name=".Login.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen.MainActivity"
+            android:name=".Maps.MapsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
