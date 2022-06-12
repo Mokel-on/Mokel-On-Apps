@@ -36,7 +36,7 @@
             android:value="AIzaSyCEibPXl9ffKjG8rma1x67BfHUGOnmX9B0" />
 
         <activity
-            android:name=".SplashScreen.MainActivity"
+            android:name=".Maps.MapsActivity"
             android:exported="false"
             android:label="@string/title_activity_maps" />
         <activity
@@ -52,7 +52,7 @@
             android:name=".Login.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".Maps.MapsActivity"
+            android:name=".SplashScreen.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

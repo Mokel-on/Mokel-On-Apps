@@ -10,7 +10,8 @@
         <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/1/app/src/main/res/drawable/ic_baseline_profile.xml" value="0.156" />
         <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2665" />
         <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/1/app/src/main/res/drawable/rounded_edge.xml" value="0.2355" />
-        <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/1/app/src/main/res/layout/activity_detail_bengkel.xml" value="0.1328125" />
+        <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/1/app/src/main/res/layout/activity_bottom_nav.xml" value="0.14187212703719182" />
+        <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/1/app/src/main/res/layout/activity_detail_bengkel.xml" value="0.33" />
         <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/1/app/src/main/res/layout/activity_home.xml" value="0.18819655521783182" />
         <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/1/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/1/app/src/main/res/layout/activity_main.xml" value="0.12222222222222222" />
@@ -28,21 +29,10 @@
         <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/Mokel-On-Mobile-Bengkel-Online/file2/app/src/main/res/layout/activity_main.xml" value="0.35733695652173914" />
         <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/Mokel-On-Mobile-Bengkel-Online/file2/app/src/main/res/layout/activity_main2.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/Claren clarichie/Documents/BANGKIT/Capstone/Mokel-On-Mobile-Bengkel-Online/file2/app/src/main/res/layout/activity_regist.xml" value="0.33" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/drawable/button_red.xml" value="0.155" />
         <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/drawable/ic_baseline_chat_bubble_24.xml" value="0.155" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.155" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/activity_bottom_nav.xml" value="0.25" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/activity_detail_bengkel.xml" value="0.22" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/activity_bottom_nav.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/activity_main.xml" value="0.225" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/activity_maps.xml" value="0.17708333333333334" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/activity_profile.xml" value="0.33" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/activity_regist.xml" value="0.25" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/fragment_home.xml" value="0.2" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/list.xml" value="0.5" />
-        <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/layout/review.xml" value="0.2" />
         <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Mokel-On-Apps/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Project/Mokel-On-Apps/app/src/main/res/drawable/fav_toggle.xml" value="0.163" />
         <entry key="..\:/Users/LENOVO/OneDrive - student.gunadarma.ac.id/BANGKIT/Project/Mokel-On-Apps/app/src/main/res/drawable/ic_baseline_favorite_grey.xml" value="0.1145" />
