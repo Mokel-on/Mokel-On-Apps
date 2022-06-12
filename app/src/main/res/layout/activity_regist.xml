@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/logo"
         app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:layout_constraintVertical_bias="0.017">
+        app:layout_constraintVertical_bias="0.0">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/name_regist"
@@ -46,7 +46,6 @@
         android:hint="@string/username"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="@+id/name"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/name"
         app:layout_constraintTop_toBottomOf="@+id/name">
 
@@ -57,36 +56,16 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/email"
-        style="@style/ti"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/rounded_edge"
-        android:hint="@string/email"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="@+id/username"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/username"
-        app:layout_constraintTop_toBottomOf="@+id/username">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/email_reg"
-            style="@style/et"
-            android:background="@drawable/rounded_edge" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/password"
         style="@style/ti"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_edge"
         android:hint="@string/password"
         android:orientation="vertical"
         app:endIconMode="password_toggle"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/email"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/email"
-        app:layout_constraintTop_toBottomOf="@+id/email"
-        app:layout_constraintVertical_bias="0.028">
+        app:layout_constraintTop_toBottomOf="@+id/email">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/pass_reg"
@@ -96,23 +75,20 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/cm_password"
+        android:id="@+id/email"
         style="@style/ti"
         android:layout_marginTop="8dp"
         android:background="@drawable/rounded_edge"
-        android:hint="@string/confirm_password"
+        android:hint="@string/email"
         android:orientation="vertical"
-        app:endIconMode="password_toggle"
-        app:layout_constraintEnd_toEndOf="@+id/password"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/password"
-        app:layout_constraintTop_toBottomOf="@+id/password">
+        app:layout_constraintEnd_toEndOf="@+id/username"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/username">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/cmpass_reg"
+            android:id="@+id/email_reg"
             style="@style/et"
-            android:background="@drawable/rounded_edge"
-            android:inputType="textPassword" />
+            android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -128,6 +104,25 @@
         app:layout_constraintTop_toBottomOf="@+id/cm_password"
         app:layout_constraintVertical_bias="0.0" />
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/cm_password"
+        style="@style/ti"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_edge"
+        android:hint="@string/confirm_password"
+        android:orientation="vertical"
+        app:endIconMode="password_toggle"
+        app:layout_constraintEnd_toEndOf="@+id/password"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cmpass_reg"
+            style="@style/et"
+            android:background="@drawable/rounded_edge"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -136,8 +131,8 @@
         app:layout_constraintEnd_toEndOf="@+id/cm_password"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/cm_password"
-        app:layout_constraintTop_toBottomOf="@+id/cm_password"
-        app:layout_constraintVertical_bias="0.818">
+        app:layout_constraintTop_toBottomOf="@+id/btn_regist"
+        app:layout_constraintVertical_bias="0.333">
 
         <TextView
             android:id="@+id/textView"
@@ -162,6 +157,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_end="28dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_end="206dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
