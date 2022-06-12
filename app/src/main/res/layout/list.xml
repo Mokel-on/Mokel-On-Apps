@@ -60,7 +60,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/contact_list"
             app:layout_constraintTop_toBottomOf="@+id/contact_list"
-            tools:text="Rating 5" />
+            tools:text="Rating 5/5" />
 
         <ToggleButton
             android:id="@+id/tb_fav"

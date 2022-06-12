@@ -36,11 +36,10 @@
 
     <ImageSwitcher
         android:id="@+id/switcher_1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="164dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/logo4"
+        android:src="@tools:sample/backgrounds/scenic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
