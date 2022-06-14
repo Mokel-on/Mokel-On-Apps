@@ -52,12 +52,6 @@ class LoginActivity : AppCompatActivity() {
             LoginFirebase(email, password)
         }
 
-
-
-
-
-
-
     }
 
     private fun LoginFirebase(email: String, password: String) {

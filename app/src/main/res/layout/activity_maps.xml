@@ -8,8 +8,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textField"
         style="@style/search"
-        android:layout_width="364dp"
-        android:layout_height="50dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/rounded_edge"
@@ -19,9 +19,22 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_maps_search"
-            style="@style/et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="@drawable/rounded_edge" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/button_search"
+        android:src="@drawable/ic_baseline_search_24"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_edge"
+        android:onClick="searchLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textField"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <fragment
         android:id="@+id/map"

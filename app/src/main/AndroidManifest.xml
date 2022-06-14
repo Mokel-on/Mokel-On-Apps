@@ -13,16 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MokelOn">
-        <activity
-            android:name=".profile.EditProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name=".home.BottomNavActivity"
-            android:exported="false"
-            android:label="@string/title_activity_bottom_nav" />
-        <activity
-            android:name=".bengkel.DetailBengkelActivity"
-            android:exported="false" />
+
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -38,6 +29,16 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCEibPXl9ffKjG8rma1x67BfHUGOnmX9B0" />
 
+        <activity
+            android:name=".profile.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.BottomNavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_nav" />
+        <activity
+            android:name=".bengkel.DetailBengkelActivity"
+            android:exported="false" />
         <activity
             android:name=".Maps.MapsActivity"
             android:exported="false"

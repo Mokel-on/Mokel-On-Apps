@@ -76,9 +76,9 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, LocationListener, 
 
 
         // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+      //  val sydney = LatLng(-34.0, 151.0)
+      //  mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
+      //  mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
     }
 
     protected fun buildGoogleApiClient(){
@@ -128,11 +128,9 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, LocationListener, 
     }
 
     override fun onConnectionSuspended(p0: Int) {
-        TODO("Not yet implemented")
     }
 
     override fun onConnectionFailed(p0: ConnectionResult) {
-        TODO("Not yet implemented")
     }
 
 
@@ -142,7 +140,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, LocationListener, 
         location = locationSearch.text.toString().trim()
         var addressList: List<Address>? = null
 
-        if (location == null || location == ""){
+        if (location == ""){
             Toast.makeText(this, "provide location", Toast.LENGTH_SHORT).show()
         }else{
             val geoCoder = Geocoder(this)

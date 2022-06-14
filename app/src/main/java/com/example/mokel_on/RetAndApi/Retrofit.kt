@@ -8,12 +8,11 @@ class Retrofit {
 
    private val BASIC_URL = "https://mokel-on-default-rtdb.firebaseio.com/"
 
-   fun getInstance(): Retrofit {
-        val gson = GsonBuilder().setLenient().create()
-        return Retrofit.Builder()
-            .baseUrl(BASIC_URL)
-            .addConverterFactory(GsonConverterFactory.create(gson))
-            .build()
+    val retrofit = Retrofit.Builder()
+        .baseUrl(BASIC_URL)
+        .addConverterFactory(GsonConverterFactory.create())
+        .build()
 
-    }
+    val apiInstance = retrofit.create(Api::class.java)
+
 }

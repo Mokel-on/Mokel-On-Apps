@@ -26,7 +26,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.093"
-            tools:src="@tools:sample/backgrounds/scenic" />
+            android:src="@drawable/logo4" />
 
         <TextView
             android:id="@+id/nama_list"
